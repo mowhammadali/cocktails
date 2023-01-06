@@ -11,7 +11,7 @@ const Favorites = () => {
     const {state} = useContext(FavoriteContext);
 
     return (
-        <div className='text-center my-20'>
+        <div className='text-center mt-40 mb-20'>
             {
                 state.favoriteItems.length 
                 ? 

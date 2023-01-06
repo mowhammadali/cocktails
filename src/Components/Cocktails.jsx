@@ -17,7 +17,7 @@ const Cocktails = () => {
 
     return (
         <div className="w-full flex flex-wrap justify-center 
-        gap-y-24 gap-x-8 my-20 px-8">
+        gap-y-24 gap-x-8 mt-40 mb-20 px-8">
             {
                 error 
                 ? 

@@ -12,8 +12,8 @@ const Header = () => {
     const location = useLocation();
     
     return (
-        <div className='flex justify-between items-center w-full 
-        py-6 px-4 shadow-lg sm:px-8'>
+        <div className='bg-background flex justify-between items-center w-full 
+        py-6 px-4 shadow-xl sm:px-8 fixed left-0 top-0 z-50'>
             {/* links */}
             <div className='flex items-center gap-x-2 font-semibold 
             text-sm xs:text-base md:text-2xl xs:gap-x-4 md:gap-x-10'>
