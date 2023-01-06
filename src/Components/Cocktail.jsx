@@ -20,7 +20,7 @@ const Cocktail = (props) => {
         <div className='flex flex-col gap-6 p-2 pb-4 w-[280px]
         bg-card rounded-xl shadow-xl text-lg xs:w-[300px]'>
             <img className='rounded-t-xl select-none' alt='cocktail' src={strDrinkThumb}/>
-            <p className='h-[50px]'>{strDrink}</p>
+            <p className='h-[50px] text-left'>{strDrink}</p>
             <div className='flex justify-between items-center'>
                 <span>Drink code: {idDrink}</span>
                 {
