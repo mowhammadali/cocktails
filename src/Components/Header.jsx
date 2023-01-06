@@ -17,12 +17,12 @@ const Header = () => {
             {/* links */}
             <div className='flex items-center gap-x-2 font-semibold 
             text-sm xs:text-base md:text-2xl xs:gap-x-4 md:gap-x-10'>
-                <NavLink className={({isActive}) => `active:text-green-600 md:hover:text-green-600 border-b-4
+                <NavLink className={({isActive}) => `border-b-4
                 border-green-600 ${isActive ? 'border-opacity-100' : 'border-opacity-0'}`} to='/'>
                     Drinks
                 </NavLink>
                 <div className='relative rounded-lg px-2'>
-                    <NavLink className={({isActive}) => `active:text-green-600 md:hover:text-green-600 border-b-4
+                    <NavLink className={({isActive}) => `border-b-4
                     border-green-600 ${isActive ? 'border-opacity-100' : 'border-opacity-0'}`} to='/favorites'>
                         Favorites
                     </NavLink>

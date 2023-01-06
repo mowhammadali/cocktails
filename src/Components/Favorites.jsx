@@ -16,7 +16,7 @@ const Favorites = () => {
                 state.favoriteItems.length 
                 ? 
                     <>
-                        <h1 className='text-3xl select-none'>favorites</h1>
+                        <h1 className='text-3xl select-none'>Favorites</h1>
                         <div className="w-full flex flex-wrap justify-center 
                         gap-y-24 gap-x-8 my-20 px-8">
                             {state.favoriteItems.map(item => <Cocktail key={item.idDrink} {...item}/>)}
